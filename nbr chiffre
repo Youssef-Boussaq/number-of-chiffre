@@ -1,0 +1,13 @@
+def nb(n):
+    nbr=0
+    a=n
+    while True:
+            a=a//10
+            nbr=nbr+1
+            if a==0:
+                break
+    return nbr
+n=int(input(" to input the number:  "))
+print(nb(n))
+            
+    
